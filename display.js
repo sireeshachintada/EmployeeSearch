@@ -52,14 +52,6 @@ function loadData(){
                           }
                        }
                      }
-                     else{
-                       var td = document.createElement("td");
-                       var tx = document.createTextNode("No records found");
-                       td.appendChild(tx);
-                       tr.appendChild(td);
-                       tbody.appendChild(tr);
-                       table.appendChild(tbody);
-                     }
                    }
                }
             }
@@ -69,3 +61,4 @@ function loadData(){
          }
 // TODO
 // Clear the rows with removeChild
+// Print no recourds found
