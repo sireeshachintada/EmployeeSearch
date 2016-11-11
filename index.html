@@ -1,22 +1,19 @@
 <html>
 <head>
   <title>Employee Search</title>
-  <link rel="stylesheet" href="./includes/css/bootstrap.min.css">
-  <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
   <link rel='stylesheet' href='../includes/css/mystyles.css'/>
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-  <div class="container">
+  <div>
     <h1>Employee Search</h1>
-    <div class="navbar-form" id="search">
-      <input type="text" class="form-control my_form" id="name" placeholder="Enter name" required>
-      <button type="submit" onClick="loadData()" class="btn btn-default my_btn"><span class="glyphicon glyphicon-search"></span></button>
-      <button type="submit" onClick="DeleteRows()" class="btn btn-default my_btn">clear</button>
-    </div>
-    <table id="water" class="display">
+    <nav>
+      <input type="text" name="name" id="name" placeholder="Enter name" required>
+      <button type="submit" onClick="loadData()" class="my_btn">search</button>
+      <button type="submit" onClick="DeleteRows()" class="my_btn">clear</button>
+    </nav>
+    <table name="name" id="water">
       <thead>
         <tr>
           <th>Name</th>

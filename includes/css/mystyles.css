@@ -1,4 +1,25 @@
+/*styling for search */
+input[type=text], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
 
+/*styling for search button*/
+button[type=submit] {
+    width: 6%;
+    height: 6%;
+    background-color: #008c85;
+    color: white;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 /*Main heading*/
   h1 {
   	font-family: Helvetica;
@@ -9,9 +30,8 @@
   	line-height: 36px;
     color: #e4efee;
     background-color: #008c85;
-    height: 130px;
-    /*width: 180px;*/
-    padding-top: 50px;
+    height: 50px;
+    padding-top: 30px;
     padding-left: 8px;
     text-align: center;
   }
@@ -25,20 +45,11 @@
 	font-weight: 400;
 	line-height: 36px;
   color: #0c332f;
-  background-color: #fafdfd;
+  background-color: #f9fbd0;
   width: 100%;
   cellspacing: 0;
 }
 
-/*search bar*/
-.my_form{
-    border-color: #d26c22;
-}
-
-/*search button*/
-.my_btn{
-  color: white;
-  margin-left: 5px;
-  background-color: #d26c22;
-  border-color: #c1631f;
+th{
+  text-align: left;
 }
